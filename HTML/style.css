@@ -1,0 +1,108 @@
+:root {
+    --azul_titulo : #12013a;
+    --branco: #ffffff;
+    --cinza: #dcdbdb;
+    --focus: #bbcbd4;
+    --cinzafieldset: #d4d4d4;
+    --preto: #000;
+}
+
+body {
+    width:820px;
+    font-family: Bold;
+    font-size: 0.75em;
+    margin: 0 auto;
+    background-color: var(--cinza);
+}
+
+.div__titulo {
+    font-family: Bold;
+    background-color: var(--azul_titulo);
+    color: var(--branco);
+    font-size: 50px;
+    text-align: center;
+}
+
+.div__subtitulo {
+    font-size: 25px;
+}
+
+.div__menu {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 2px #000 solid;
+}
+
+.menu__opcao{
+    text-align: center;
+    padding: 1em;
+    font-weight: bolder;
+    width: 100% auto;
+
+}
+
+.menu__opcao:hover{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.input__formato {
+    border-radius: 5px;
+
+}
+
+.div__botao {
+    text-align: center;
+    
+}
+
+.div__rodape {
+    font-family: Bold;
+    background-color: var(--azul_titulo);
+    font-size: 0.em;
+    color: var(--branco);
+    text-align: center;
+    margin: 2em 0;
+    padding: 0.5em; 
+}
+
+.button__efeito:hover {
+    font-family: Bold;
+    background-color: var(--azul_titulo);
+    color: var(--branco);
+    font-weight: bold;
+    border: #000000 1px solid;
+    cursor: pointer;
+    height: 1.56em;
+    transition: 0.3s;
+}
+
+.input__foco:focus {
+    background-color: var(--focus);
+
+}
+
+fieldset {
+    background-color: var(--cinzafieldset);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 50%;
+}
+
+a:hover{
+    color: var(--branco);
+}
+
+
+
+
+
+
+
