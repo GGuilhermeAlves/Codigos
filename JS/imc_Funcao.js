@@ -5,8 +5,8 @@ function calcularIMC(peso, altura) {
 
 function classificarIMC(imc) {
 
-    if(imc < 18.5) {
-        return "Abaixo do peso"   
+    if (imc < 18.5) {
+        return "Abaixo do peso"
     } else if (imc >= 18.5 && imc < 25) {
         return "Peso normal"
     } else if (imc >= 25 && imc < 30) {
