@@ -1,5 +1,5 @@
 :root {
-    --azul_titulo : #12013a;
+    --azul_titulo: #12013a;
     --branco: #ffffff;
     --cinza: #dcdbdb;
     --focus: #bbcbd4;
@@ -8,7 +8,7 @@
 }
 
 body {
-    width:820px;
+    width: 820px;
     font-family: Bold;
     font-size: 0.75em;
     margin: 0 auto;
@@ -35,7 +35,7 @@ body {
     border: 2px #000 solid;
 }
 
-.menu__opcao{
+.menu__opcao {
     text-align: center;
     padding: 1em;
     font-weight: bolder;
@@ -43,9 +43,10 @@ body {
 
 }
 
-.menu__opcao:hover{
+.menu__opcao:hover {
     background-color: var(--preto);
     color: var(--branco);
+    transition: 0.3s;
 }
 
 .input__formato {
@@ -55,7 +56,7 @@ body {
 
 .div__botao {
     text-align: center;
-    
+
 }
 
 .div__rodape {
@@ -65,7 +66,7 @@ body {
     color: var(--branco);
     text-align: center;
     margin: 2em 0;
-    padding: 0.5em; 
+    padding: 0.5em;
 }
 
 .button__efeito:hover {
@@ -96,13 +97,6 @@ a {
     width: 50%;
 }
 
-a:hover{
+a:hover {
     color: var(--branco);
 }
-
-
-
-
-
-
-

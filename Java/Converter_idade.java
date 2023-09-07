@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Converter_idade {
 public static void main(String []args){   
